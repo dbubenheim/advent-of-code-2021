@@ -1,4 +1,4 @@
-package aoc2021
+package aoc2021.day02
 
 import aoc2021.day02.Day02.Companion.divePart1
 import aoc2021.day02.Day02.Companion.divePart2

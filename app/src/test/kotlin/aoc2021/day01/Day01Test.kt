@@ -1,4 +1,4 @@
-package aoc2021
+package aoc2021.day01
 
 import aoc2021.day01.Day01.Companion.sonarSweepPart1
 import aoc2021.day01.Day01.Companion.sonarSweepPart2

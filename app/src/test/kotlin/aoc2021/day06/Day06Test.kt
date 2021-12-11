@@ -1,4 +1,4 @@
-package aoc2021
+package aoc2021.day06
 
 import aoc2021.day06.Day06.Companion.lanternfishPart1
 import aoc2021.day06.Day06.Companion.lanternfishPart2
