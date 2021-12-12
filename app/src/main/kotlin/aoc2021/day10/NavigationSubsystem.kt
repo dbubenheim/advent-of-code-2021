@@ -12,7 +12,7 @@ class NavigationSubsystem(l: List<String>) {
         .also { println("corrupt: ${it.size}") }
         .sumOf { it.syntaxCheck.errorScore }
 
-    fun middleScore() : Long {
+    fun middleScore(): Long {
         val sortedBy = lines
             .filter { !it.syntaxCheck.isCorrupt }
             .also { println("incomplete: ${it.size}") }

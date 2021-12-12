@@ -7,7 +7,7 @@ class Day03 {
     companion object {
 
         @JvmStatic
-        fun diagnosticReportPart1(): Int {
+        fun binaryDiagnosticPart1(): Int {
             return "input-day03.txt"
                 .toFile()
                 .readLines()
@@ -17,7 +17,7 @@ class Day03 {
         }
 
         @JvmStatic
-        fun diagnosticReportPart2(): Int {
+        fun binaryDiagnosticPart2(): Int {
             val numbers = "input-day03.txt"
                 .toFile()
                 .readLines()
@@ -94,8 +94,8 @@ class Day03 {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            println(diagnosticReportPart1())
-            println(diagnosticReportPart2())
+            println(binaryDiagnosticPart1())
+            println(binaryDiagnosticPart2())
         }
     }
 }

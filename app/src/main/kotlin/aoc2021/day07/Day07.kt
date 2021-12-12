@@ -8,7 +8,7 @@ class Day07 {
     companion object {
 
         @JvmStatic
-        fun part1(): Long {
+        fun treacheryOfWhalesPart1(): Long {
             val numbers = "input-day07.txt".toFile()
                 .readLines()
                 .first()
@@ -33,7 +33,7 @@ class Day07 {
         }
 
         @JvmStatic
-        fun part2(): Long {
+        fun treacheryOfWhalesPart2(): Long {
             val numbers: List<Int> = "input-day07.txt".toFile()
                 .readLines()
                 .first()
@@ -59,8 +59,8 @@ class Day07 {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            println(part1())
-            println(part2())
+            println(treacheryOfWhalesPart1())
+            println(treacheryOfWhalesPart2())
         }
     }
 }

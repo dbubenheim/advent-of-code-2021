@@ -7,7 +7,7 @@ class Day10 {
     companion object {
 
         @JvmStatic
-        fun part1(): Int {
+        fun syntaxScoringPart1(): Int {
             return "input-day10.txt".toFile()
                 .readLines()
                 .toNavigationSubsystem()
@@ -15,7 +15,7 @@ class Day10 {
         }
 
         @JvmStatic
-        fun part2(): Long {
+        fun syntaxScoringPart2(): Long {
             return "input-day10.txt".toFile()
                 .readLines()
                 .toNavigationSubsystem()
@@ -24,8 +24,8 @@ class Day10 {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            println(part1())
-            println(part2())
+            println(syntaxScoringPart1())
+            println(syntaxScoringPart2())
         }
     }
 }

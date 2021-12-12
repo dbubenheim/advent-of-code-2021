@@ -7,7 +7,7 @@ class Day04 {
     companion object {
 
         @JvmStatic
-        fun part1(): Int {
+        fun giantSquidPart1(): Int {
             val lines = "input-day04.txt"
                 .toFile()
                 .readLines()
@@ -44,7 +44,7 @@ class Day04 {
         }
 
         @JvmStatic
-        fun part2(): Int {
+        fun giantSquidPart2(): Int {
             val lines = "input-day04.txt"
                 .toFile()
                 .readLines()
@@ -83,8 +83,8 @@ class Day04 {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            println(part1())
-            println(part2())
+            println(giantSquidPart1())
+            println(giantSquidPart2())
         }
     }
 }
