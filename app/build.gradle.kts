@@ -16,7 +16,7 @@ dependencies {
 
     implementation("com.google.guava:guava:29.0-jre")
 
-    testImplementation(platform("org.junit:junit-bom:5.8.2"))
+    testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 
     testImplementation("org.assertj:assertj-core:3.23.1")
