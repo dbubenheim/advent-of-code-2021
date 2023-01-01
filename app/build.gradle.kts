@@ -20,7 +20,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 
     testImplementation("org.assertj:assertj-core:3.23.1")
-    testImplementation("com.willowtreeapps.assertk:assertk:0.24")
+    testImplementation("com.willowtreeapps.assertk:assertk:0.25")
 }
 
 tasks.test {
